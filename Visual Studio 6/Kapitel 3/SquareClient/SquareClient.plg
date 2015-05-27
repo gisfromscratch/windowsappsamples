@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: SquareClient - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP8F.tmp" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/SquareClient.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc6\k3\SquareClient\StdAfx.cpp"
+"F:\vc6\k3\SquareClient\SquareClientDlg.cpp"
+"F:\vc6\k3\SquareClient\SquareClient.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP8F.tmp" 
+Erstellen der Befehlzeile "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SquareClient.pdb" /debug /machine:I386 /out:"Debug/SquareClient.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\SquareClientDlg.obj .\Debug\SquareClient.obj .\Debug\SquareClient.res "
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+StdAfx.cpp
+SquareClientDlg.cpp
+SquareClient.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+SquareClient.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

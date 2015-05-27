@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChartDebug - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/StockChartDebug.res" /d "_DEBUG" "F:\vc6\StockChartDebug\StockChartDebug.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP5F.tmp" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/StockChartDebug.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc6\StockChartDebug\StockProperty.cpp"
+"F:\vc6\StockChartDebug\ChildFrm.cpp"
+"F:\vc6\StockChartDebug\MainFrm.cpp"
+"F:\vc6\StockChartDebug\StdAfx.cpp"
+"F:\vc6\StockChartDebug\StockChartDebug.cpp"
+"F:\vc6\StockChartDebug\StockChartDebugDoc.cpp"
+"F:\vc6\StockChartDebug\StockChartDebugView.cpp"
+"F:\vc6\StockChartDebug\ChartProperty.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP5F.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP60.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/StockChartDebug.pdb" /debug /machine:I386 /out:"Debug/StockChartDebug.exe" /pdbtype:sept 
+.\Debug\StockProperty.obj
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\StockChartDebug.obj
+.\Debug\StockChartDebugDoc.obj
+.\Debug\StockChartDebugView.obj
+.\Debug\ChartProperty.obj
+.\Debug\StockChartDebug.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP60.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StockProperty.cpp
+ChildFrm.cpp
+MainFrm.cpp
+StdAfx.cpp
+StockChartDebug.cpp
+StockChartDebugDoc.cpp
+StockChartDebugView.cpp
+ChartProperty.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockChartDebug.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

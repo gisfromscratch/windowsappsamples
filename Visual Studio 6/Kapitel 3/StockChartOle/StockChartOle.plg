@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChartOle - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockChartOle.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel3\StockChartOle\StockChartOle.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP18.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartOle.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\ChartProperty.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\ChildFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\DrawFunc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\IpFrame.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\SrvrItem.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\StockChartOle.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\StockChartOleDoc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\StockChartOleView.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\StockProperty.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP18.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP19.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartOle.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartOle\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP19.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP1A.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StockChartOle.pdb" /machine:I386 /out:"Release/StockChartOle.exe" 
+.\Release\ChartProperty.obj
+.\Release\ChildFrm.obj
+.\Release\DrawFunc.obj
+.\Release\IpFrame.obj
+.\Release\MainFrm.obj
+.\Release\SrvrItem.obj
+.\Release\StdAfx.obj
+.\Release\StockChartOle.obj
+.\Release\StockChartOleDoc.obj
+.\Release\StockChartOleView.obj
+.\Release\StockProperty.obj
+.\Release\StockChartOle.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP1A.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+DrawFunc.cpp
+IpFrame.cpp
+MainFrm.cpp
+SrvrItem.cpp
+StockChartOle.cpp
+StockChartOleDoc.cpp
+StockChartOleView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockChartOle.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

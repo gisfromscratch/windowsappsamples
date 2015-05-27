@@ -1,0 +1,14 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.stk = StockChartWithDll.Document
+HKEY_CLASSES_ROOT\StockC.Document\shell\open\command = STOCKCHARTWITHDLL.EXE %1
+HKEY_CLASSES_ROOT\StockC.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\StockC.Document\shell\open\ddeexec\application = STOCKCHART
+    ; Hinweis: die Anwendung ist optional
+    ;  (als Standardwert wird der Name der Anwendung in "command" verwendet)
+
+HKEY_CLASSES_ROOT\StockC.Document = StockC Document

@@ -1,0 +1,11 @@
+; CppServerNested.def : Deklariert die Parameter für das Modul.
+
+LIBRARY      "CppServerNested.DLL"
+
+EXPORTS
+	DllGetClassObject    PRIVATE
+	DllMain              PRIVATE
+	DllRegisterServer    PRIVATE
+	DllCanUnloadNow      PRIVATE
+	DllUnregisterServer  PRIVATE
+

@@ -1,0 +1,19 @@
+
+	// OLEDBChart.idl : IDL-Quellcode für OLEDBChart.exe
+//
+// Diese Datei wird von dem Programm MIDL verarbeitet, um
+// die Typbibliothek (OLEDBChart.tlb) und Marshalling-Code zu erstellen.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(9222C938-6036-11D2-B3F3-006097A8F69A),
+	version(1.0),
+	helpstring("OLEDBChart 1.0 Typbibliothek")
+]
+library OLEDBChartLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

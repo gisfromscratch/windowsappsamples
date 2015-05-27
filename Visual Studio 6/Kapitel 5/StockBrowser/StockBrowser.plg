@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockBrowser - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/StockBrowser.res" /d "_DEBUG" "F:\vc6\k5\StockBrowser\StockBrowser.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC.tmp" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/StockBrowser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc6\k5\StockBrowser\StockListEdit.cpp"
+"F:\vc6\k5\StockBrowser\MainFrm.cpp"
+"F:\vc6\k5\StockBrowser\StdAfx.cpp"
+"F:\vc6\k5\StockBrowser\StockBrowser.cpp"
+"F:\vc6\k5\StockBrowser\StockBrowserDoc.cpp"
+"F:\vc6\k5\StockBrowser\StockBrowserView.cpp"
+"F:\vc6\k5\StockBrowser\ChildFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPD.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/StockBrowser.pdb" /debug /machine:I386 /out:"Debug/StockBrowser.exe" /pdbtype:sept 
+.\Debug\StockListEdit.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\StockBrowser.obj
+.\Debug\StockBrowserDoc.obj
+.\Debug\StockBrowserView.obj
+.\Debug\ChildFrm.obj
+.\Debug\StockBrowser.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPD.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StockListEdit.cpp
+MainFrm.cpp
+StdAfx.cpp
+StockBrowser.cpp
+StockBrowserDoc.cpp
+StockBrowserView.cpp
+ChildFrm.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockBrowser.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

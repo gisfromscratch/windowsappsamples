@@ -1,0 +1,11 @@
+; CppSquareServer.def : Deklariert die Parameter für das Modul.
+
+LIBRARY      "CppServer.DLL"
+
+EXPORTS
+   DllMain              PRIVATE
+   DllGetClassObject    PRIVATE
+   DllRegisterServer    PRIVATE
+   DllCanUnloadNow      PRIVATE
+   DllUnregisterServer  PRIVATE
+

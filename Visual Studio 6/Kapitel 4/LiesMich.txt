@@ -1,0 +1,6 @@
+Sehr geehrter Leser,
+
+die Beispiele zum Thema OLEDB lassen sich leider nicht 1:1 für die Version 6 von Visual C++ übernehmen,
+da sich in diesem Bereich zwischen den Versionen Einiges verändert hat. Der Quelltext der beiden
+Beispielprogramme weicht daher an dieser Stelle stark von denen im Buch besprochenen Beispielen ab.
+

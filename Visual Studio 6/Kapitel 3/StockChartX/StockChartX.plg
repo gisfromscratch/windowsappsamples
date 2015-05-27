@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChartX - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockChartX.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel3\StockChartX\StockChartX.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP23.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartX.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartX\ChartProperty.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\ChildFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\DrawFunc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\IpFrame.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\SrvrItem.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\StockChartX.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\StockChartXDoc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\StockChartXView.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartX\StockProperty.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP23.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP24.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartX.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartX\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP24.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP25.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StockChartX.pdb" /machine:I386 /out:"Release/StockChartX.exe" 
+.\Release\ChartProperty.obj
+.\Release\ChildFrm.obj
+.\Release\DrawFunc.obj
+.\Release\IpFrame.obj
+.\Release\MainFrm.obj
+.\Release\SrvrItem.obj
+.\Release\StdAfx.obj
+.\Release\StockChartX.obj
+.\Release\StockChartXDoc.obj
+.\Release\StockChartXView.obj
+.\Release\StockProperty.obj
+.\Release\StockChartX.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP25.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+DrawFunc.cpp
+IpFrame.cpp
+MainFrm.cpp
+SrvrItem.cpp
+StockChartX.cpp
+StockChartXDoc.cpp
+StockChartXView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockChartX.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

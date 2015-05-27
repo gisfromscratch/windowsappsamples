@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: ODBCChart - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/ODBCChart.res" /d "_DEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel4\ODBCChart\ODBCChart.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP24.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ODBCChart.pdb" /debug /machine:I386 /out:"Debug/ODBCChart.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\ODBCChart.obj
+.\Debug\ODBCChartDoc.obj
+.\Debug\ODBCChartView.obj
+.\Debug\Quotes.obj
+.\Debug\Shares.obj
+.\Debug\StdAfx.obj
+.\Debug\StockChooser.obj
+.\Debug\ODBCChart.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP24.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+ODBCChart.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

@@ -1,0 +1,6 @@
+; LAT.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY      "LAT"
+
+EXPORTS
+    ; Explicit exports can go here

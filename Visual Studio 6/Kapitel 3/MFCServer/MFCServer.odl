@@ -1,0 +1,32 @@
+// MFCServer.odl : Quellcode der Typbibliothek für MFCServer.dll
+
+// Diese Datei wird vom MIDL-Compiler bearbeitet, um die
+// Typbibliothek zu erzeugen (MFCServer.tlb).
+
+[ uuid(77A848A2-FC79-11D1-B50B-006097A8F69A),
+  version(1.0),
+  helpstring ("Square Bibliothek") ]
+
+library MFCServer
+{
+	importlib("stdole32.tlb");
+	
+
+
+	[object, uuid(547E8380-F175-11D1-90A2-D0DD2F7ACA49)]
+	interface ISquare : IUnknown
+	{
+		import "unknwn.idl";
+
+		HRESULT GetSquare ([in] long nValue,
+		                   [out, retval] long* pnResult);
+	}
+
+	//  Class information for CSquare
+	[ uuid(4831F131-F290-11D1-90A2-D0DD2F7ACA49) ]
+	coclass Square
+	{
+		interface ISquare;
+	};
+
+};

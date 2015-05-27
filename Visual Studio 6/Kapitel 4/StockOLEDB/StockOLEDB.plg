@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockOLEDB - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockOLEDB.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel4\StockOLEDB\StockOLEDB.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP30.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/StockOLEDB.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\StockOLEDB.cpp"
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\StockOLEDBDoc.cpp"
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\StockOLEDBSet.cpp"
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\StockOLEDBView.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP30.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP31.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/StockOLEDB.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel4\StockOLEDB\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP31.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP32.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StockOLEDB.pdb" /machine:I386 /out:"Release/StockOLEDB.exe" 
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\StockOLEDB.obj
+.\Release\StockOLEDBDoc.obj
+.\Release\StockOLEDBSet.obj
+.\Release\StockOLEDBView.obj
+.\Release\StockOLEDB.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP32.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+MainFrm.cpp
+StockOLEDB.cpp
+StockOLEDBDoc.cpp
+StockOLEDBSet.cpp
+StockOLEDBView.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockOLEDB.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

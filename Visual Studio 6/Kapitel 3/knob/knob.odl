@@ -1,0 +1,74 @@
+// knob.odl : IDL-Quellcode für das ActiveX-Steuerelement-Projekt.
+
+// Diese Datei wird mit dem MIDL-Tool bearbeitet,
+// um die Typbibliothek (knob.tlb)
+// für knob.ocx zu erzeugen.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(21D56973-2604-11D2-B59C-006097A8F69A), version(1.0),
+  helpfile("knob.hlp"),
+  helpstring("knob ActiveX-Steuerelement-Modul"),
+  control ]
+library KNOBLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primäre Dispatch-Schnittstelle für CKnobCtrl
+
+	[ uuid(21D56975-2604-11D2-B59C-006097A8F69A),
+	  helpstring("Dispatch-Schnittstelle für Knob Control"), hidden ]
+	dispinterface _DKnob
+	{
+		properties:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Eigenschaften.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_PROP(CKnobCtrl)
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(DISPID_FORECOLOR), bindable, requestedit] OLE_COLOR ForeColor;
+			[id(1)] long MaxValue;
+			[id(2)] long Value;
+			//}}AFX_ODL_PROP
+
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Methoden.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_METHOD(CKnobCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CKnobCtrl
+
+	[ uuid(21D56976-2604-11D2-B59C-006097A8F69A),
+	  helpstring("Event interface for Knob Control") ]
+	dispinterface _DKnobEvents
+	{
+		properties:
+			//  Ereignis-Schnittstelle hat keine Eigenschafte.
+
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Ereignisse.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_EVENT(CKnobCtrl)
+			[id(1)] void OnValueChanged(long nValue);
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Klassen-Informationen für CKnobCtrl
+
+	[ uuid(21D56977-2604-11D2-B59C-006097A8F69A),
+	  helpstring("Knob Control"), control ]
+	coclass Knob
+	{
+		[default] dispinterface _DKnob;
+		[default, source] dispinterface _DKnobEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

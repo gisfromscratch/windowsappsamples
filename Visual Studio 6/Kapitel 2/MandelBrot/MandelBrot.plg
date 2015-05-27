@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: MandelBrot - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/Mandelbrot.res" /d "_DEBUG" "F:\vc6\MandelBrot\Mandelbrot.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP36.tmp" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/MandelBrot.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc6\MandelBrot\StdAfx.cpp"
+"F:\vc6\MandelBrot\Mandelbrot.cpp"
+"F:\vc6\MandelBrot\MandelbrotDoc.cpp"
+"F:\vc6\MandelBrot\MandelbrotView.cpp"
+"F:\vc6\MandelBrot\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP36.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP37.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MandelBrot.pdb" /debug /machine:I386 /out:"Debug/MandelBrot.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\Mandelbrot.obj
+.\Debug\MandelbrotDoc.obj
+.\Debug\MandelbrotView.obj
+.\Debug\MainFrm.obj
+.\Debug\Mandelbrot.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP37.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Mandelbrot.cpp
+MandelbrotDoc.cpp
+MandelbrotView.cpp
+MainFrm.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+MandelBrot.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

@@ -1,0 +1,41 @@
+// MFCAutoClient1.odl : Quellcode der Typbibliothek für MFCAutoClient1.exe
+
+// Diese Datei wird vom MIDL-Compiler bearbeitet, um die
+// Typbibliothek zu erzeugen (MFCAutoClient1.tlb).
+
+[ uuid(48969664-0A05-11D2-B530-006097A8F69A), version(1.0) ]
+library MFCAutoClient1
+{
+	importlib("stdole32.tlb");
+	
+
+	//  Primäre Dispatch-Schnittstelle für CMFCAutoClient1Doc
+	
+	[ uuid(48969665-0A05-11D2-B530-006097A8F69A) ]
+	dispinterface IMFCAutoClient1
+	{
+		properties:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Eigenschaften.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_PROP(CMFCAutoClient1DlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Methoden.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_METHOD(CMFCAutoClient1DlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Klassen-Informationen für CMFCAutoClient1Doc
+	
+	[ uuid(48969663-0A05-11D2-B530-006097A8F69A) ]
+	coclass MFCAutoClient1
+	{
+		[default] dispinterface IMFCAutoClient1;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

@@ -1,0 +1,77 @@
+// StockChartAuto.odl : Quellcode der Typbibliothek für StockChartAuto.exe
+
+// Diese Datei wird vom MIDL-Compiler bearbeitet, um die
+// Typbibliothek zu erzeugen (StockChartAuto.tlb).
+
+[ uuid(CFDB3165-0122-11D2-B51C-006097A8F69A), version(1.0) ]
+library StockChartAuto
+{
+	importlib("stdole32.tlb");
+	
+
+	//  Primäre Dispatch-Schnittstelle für CStockChartAutoDoc
+	
+	[ uuid(CFDB3166-0122-11D2-B51C-006097A8F69A) ]
+	dispinterface IStockChartAuto
+	{
+		properties:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Eigenschaften.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_PROP(CStockChartAutoDoc)
+			[id(1)] long id;
+			[id(2)] BSTR name;
+			[id(3)] IDispatch* statusbar;
+			[id(4)] BSTR ticker;
+			[id(5)] boolean average;
+			[id(6)] long averagecnt;
+			[id(7)] boolean grid;
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Methoden.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_METHOD(CStockChartAutoDoc)
+			[id(8)] void ShowWindow();
+			[id(9)] void SetColor(short red, short green, short blue);
+			[id(10)] boolean SaveFile(BSTR pathName);
+			[id(11)] boolean ImportFile(BSTR pathName);
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Klassen-Informationen für CStockChartAutoDoc
+	
+	[ uuid(CFDB3164-0122-11D2-B51C-006097A8F69A) ]
+	coclass Document
+	{
+		[default] dispinterface IStockChartAuto;
+	};
+
+
+	//  Primary dispatch interface for CStatusBarInterface
+	
+	[ uuid(D3A9E441-0521-11D2-B525-006097A8F69A) ]
+	dispinterface IStatusBarInterface
+	{
+		properties:
+			//{{AFX_ODL_PROP(CStatusBarInterface)
+			[id(1)] BSTR status;
+			//}}AFX_ODL_PROP
+			
+		methods:
+			//{{AFX_ODL_METHOD(CStatusBarInterface)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CStatusBarInterface
+
+	[ uuid(D3A9E443-0521-11D2-B525-006097A8F69A) ]
+	coclass StatusBarInterface
+	{
+		[default] dispinterface IStatusBarInterface;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

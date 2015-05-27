@@ -1,0 +1,9 @@
+; knob.def : Deklariert die Parameter für das Modul.
+
+LIBRARY      "KNOB.OCX"
+
+EXPORTS
+	DllCanUnloadNow     @1 PRIVATE
+	DllGetClassObject   @2 PRIVATE
+	DllRegisterServer   @3 PRIVATE
+	DllUnregisterServer @4 PRIVATE

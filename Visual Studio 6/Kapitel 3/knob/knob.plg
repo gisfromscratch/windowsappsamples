@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: knob - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der Befehlzeile "midl.exe /nologo /D "NDEBUG" /tlb "Release/knob.tlb" /mktyplib203 /o "NUL" /win32 "D:\vc_buch\Disc\Kapitel3\knob\knob.odl""
+Creating command line "rc.exe /l 0x407 /fo"Release/knob.res" /i "Release" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel3\knob\knob.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP2F.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_USRDLL" /Fp"Release/knob.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\knob\knob.cpp"
+"D:\vc_buch\Disc\Kapitel3\knob\KnobCtl.cpp"
+"D:\vc_buch\Disc\Kapitel3\knob\KnobPpg.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP2F.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP30.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_USRDLL" /Fp"Release/knob.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\knob\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP30.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP31.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/knob.pdb" /machine:I386 /def:".\knob.def" /out:"Release/knob.ocx" /implib:"Release/knob.lib" 
+.\Release\knob.obj
+.\Release\KnobCtl.obj
+.\Release\KnobPpg.obj
+.\Release\StdAfx.obj
+.\Release\knob.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP31.tmp"
+Erstellen der temporären Datei  "D:\TEMP\RSP32.bat" mit Inhalten
+[
+@echo off
+regsvr32 /s /c ".\Release\knob.ocx"
+echo regsvr32 exec. time > ".\Release\regsvr32.trg"
+]
+Erstellen der Befehlzeile "D:\TEMP\RSP32.bat"
+Typbibliothek wird erstellt...
+knob.odl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+knob.cpp
+KnobCtl.cpp
+KnobPpg.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+   Bibliothek Release/knob.lib und Objekt Release/knob.exp wird erstellt
+<h3>Ausgabefenster</h3>
+ActiveX-Steuerelemente werden registriert...
+RegSvr32: DllRegisterServer in .\Release\knob.ocx succeeded.
+
+
+
+
+<h3>Ergebnisse</h3>
+knob.ocx - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

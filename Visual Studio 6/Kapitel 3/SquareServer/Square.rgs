@@ -1,0 +1,23 @@
+HKCR
+{
+	SquareServer.Square.1 = s 'Square Class'
+	{
+		CLSID = s '{547E8381-F175-11D1-90A2-D0DD2F7ACA49}'
+	}
+	SquareServer.Square = s 'Square Class'
+	{
+		CLSID = s '{547E8381-F175-11D1-90A2-D0DD2F7ACA49}'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {547E8381-F175-11D1-90A2-D0DD2F7ACA49} = s 'Square Class'
+		{
+			ProgID = s 'SquareServer.Square.1'
+			VersionIndependentProgID = s 'SquareServer.Square'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'both'
+			}
+		}
+	}
+}

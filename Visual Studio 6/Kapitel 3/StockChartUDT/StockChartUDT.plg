@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChartUDT - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockChartUDT.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel3\StockChartUDT\StockChartUDT.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSPC.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartUDT.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\ChartProperty.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\ChildFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\StockChartUDT.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\StockChartUDTDoc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\StockChartUDTView.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\StockProperty.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSPC.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSPD.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/StockChartUDT.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartUDT\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSPD.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSPE.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StockChartUDT.pdb" /machine:I386 /out:"Release/StockChartUDT.exe" 
+.\Release\ChartProperty.obj
+.\Release\ChildFrm.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\StockChartUDT.obj
+.\Release\StockChartUDTDoc.obj
+.\Release\StockChartUDTView.obj
+.\Release\StockProperty.obj
+.\Release\StockChartUDT.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSPE.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+MainFrm.cpp
+StockChartUDT.cpp
+StockChartUDTDoc.cpp
+StockChartUDTView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+StockChartUDT.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

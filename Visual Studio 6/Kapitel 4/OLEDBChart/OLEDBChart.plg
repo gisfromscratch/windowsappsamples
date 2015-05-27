@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: OLEDBChart - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der Befehlzeile "midl.exe /nologo /D "NDEBUG" /tlb "Release/OLEDBChart.tlb" /h "OLEDBChart_i.h" /iid "OLEDBChart_i.c" /Oicf /win32 "D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChart.idl""
+Creating command line "rc.exe /l 0x407 /fo"Release/OLEDBChart.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChart.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP77.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OLEDBChart.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\ChildFrm.cpp"
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChart.cpp"
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChartDoc.cpp"
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChartView.cpp"
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\StockChooser.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP77.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP78.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/OLEDBChart.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel4\OLEDBChart\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP78.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP79.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/OLEDBChart.pdb" /machine:I386 /out:"Release/OLEDBChart.exe" 
+.\Release\ChildFrm.obj
+.\Release\MainFrm.obj
+.\Release\OLEDBChart.obj
+.\Release\OLEDBChartDoc.obj
+.\Release\OLEDBChartView.obj
+.\Release\StdAfx.obj
+.\Release\StockChooser.obj
+.\Release\OLEDBChart.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP79.tmp"
+<h3>Ausgabefenster</h3>
+Typbibliothek wird erstellt...
+Processing D:\vc_buch\Disc\Kapitel4\OLEDBChart\OLEDBChart.idl
+OLEDBChart.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\ocidl.idl
+ocidl.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\oleidl.idl
+oleidl.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\servprov.idl
+servprov.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\urlmon.idl
+urlmon.idl
+Processing D:\Programme\Microsoft Visual Studio\VC98\INCLUDE\msxml.idl
+msxml.idl
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChildFrm.cpp
+MainFrm.cpp
+OLEDBChart.cpp
+OLEDBChartDoc.cpp
+OLEDBChartView.cpp
+StockChooser.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+OLEDBChart.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

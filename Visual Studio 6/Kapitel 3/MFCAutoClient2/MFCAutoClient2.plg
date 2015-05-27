@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: MFCAutoClient2 - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "D:\TEMP\RSPA1.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Release/" /Fp"Release/MFCAutoClient2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\MFCAutoClient2\MFCAutoClient2Dlg.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSPA1.tmp" 
+Erstellen der Befehlzeile "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/MFCAutoClient2.pdb" /machine:I386 /out:"Release/MFCAutoClient2.exe"  .\Release\MFCAutoClient2.obj .\Release\MFCAutoClient2Dlg.obj .\Release\StdAfx.obj .\Release\MFCAutoClient2.res "
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+MFCAutoClient2Dlg.cpp
+Linker-Vorgang läuft...
+Erstellen der Befehlzeile "bscmake.exe /nologo /o"Release/MFCAutoClient2.bsc"  .\Release\StdAfx.sbr .\Release\MFCAutoClient2.sbr .\Release\MFCAutoClient2Dlg.sbr"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+MFCAutoClient2.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

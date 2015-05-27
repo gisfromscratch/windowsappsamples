@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChart - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/StockChart.res" /d "_DEBUG" /d "_AFXDLL" "F:\vc6\StockChart\StockChart.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC0.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/StockChart.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\StockChart\ChartProperty.cpp"
+"F:\vc6\StockChart\ChildFrm.cpp"
+"F:\vc6\StockChart\MainFrm.cpp"
+"F:\vc6\StockChart\StockChart.cpp"
+"F:\vc6\StockChart\StockChartDoc.cpp"
+"F:\vc6\StockChart\StockChartView.cpp"
+"F:\vc6\StockChart\StockProperty.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC0.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC1.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/StockChart.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\StockChart\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC1.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC2.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/StockChart.pdb" /debug /machine:I386 /out:"Debug/StockChart.exe" /pdbtype:sept 
+.\Debug\ChartProperty.obj
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\StockChart.obj
+.\Debug\StockChartDoc.obj
+.\Debug\StockChartView.obj
+.\Debug\StockProperty.obj
+.\Debug\StockChart.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPC2.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+MainFrm.cpp
+StockChart.cpp
+StockChartDoc.cpp
+StockChartView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+Erstellen der Befehlzeile "bscmake.exe /nologo /o"Debug/StockChart.bsc"  .\Debug\StdAfx.sbr .\Debug\ChartProperty.sbr .\Debug\ChildFrm.sbr .\Debug\MainFrm.sbr .\Debug\StockChart.sbr .\Debug\StockChartDoc.sbr .\Debug\StockChartView.sbr .\Debug\StockProperty.sbr"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+StockChart.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

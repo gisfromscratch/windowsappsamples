@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: WinControl - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP50.tmp" mit Inhalten
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/WinControl.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc6\WinControl\PropertyDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP50.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP51.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/WinControl.pdb" /debug /machine:I386 /out:"Debug/WinControl.exe" /pdbtype:sept 
+.\Debug\WinControlView.obj
+.\Debug\ControlDlg1.obj
+.\Debug\ControlDlg2.obj
+.\Debug\ControlDlg3.obj
+.\Debug\IconPage.obj
+.\Debug\MainFrm.obj
+.\Debug\PropertyDialog.obj
+.\Debug\SliderPage.obj
+.\Debug\StdAfx.obj
+.\Debug\WinControl.obj
+.\Debug\WinControlDoc.obj
+.\Debug\BitmapPage.obj
+.\Debug\WinControl.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP51.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+PropertyDialog.cpp
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+WinControl.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

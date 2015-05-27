@@ -1,0 +1,19 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.stk = StockAuto.Document
+HKEY_CLASSES_ROOT\StockAuto.Document\shell\open\command = STOCKCHARTAUTO.EXE %1
+HKEY_CLASSES_ROOT\StockAuto.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\StockAuto.Document\shell\open\ddeexec\application = STOCKCHARTAUTO
+    ; Hinweis: die Anwendung ist optional
+    ;  (als Standardwert wird der Name der Anwendung in "command" verwendet)
+
+HKEY_CLASSES_ROOT\StockAuto.Document = StockC Document
+HKEY_CLASSES_ROOT\StockAuto.Document\CLSID = {CFDB3164-0122-11D2-B51C-006097A8F69A}
+
+HKEY_CLASSES_ROOT\CLSID\{CFDB3164-0122-11D2-B51C-006097A8F69A} = StockC Document
+HKEY_CLASSES_ROOT\CLSID\{CFDB3164-0122-11D2-B51C-006097A8F69A}\ProgId = StockAuto.Document
+HKEY_CLASSES_ROOT\CLSID\{CFDB3164-0122-11D2-B51C-006097A8F69A}\LocalServer32 = STOCKCHARTAUTO.EXE

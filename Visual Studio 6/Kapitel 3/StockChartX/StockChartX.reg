@@ -1,0 +1,30 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.stkx = StockChartX.Document
+HKEY_CLASSES_ROOT\StockChartX.Document\shell\open\command = STOCKCHARTX.EXE %1
+HKEY_CLASSES_ROOT\StockChartX.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\StockChartX.Document\shell\open\ddeexec\application = STOCKCHARTX
+    ; Hinweis: die Anwendung ist optional
+    ;  (als Standardwert wird der Name der Anwendung in "command" verwendet)
+
+HKEY_CLASSES_ROOT\StockChartX.Document = StockChartX Document
+HKEY_CLASSES_ROOT\StockChartX.Document\protocol\StdFileEditing\server = STOCKCHARTX.EXE
+HKEY_CLASSES_ROOT\StockChartX.Document\protocol\StdFileEditing\verb\0 = &Edit
+HKEY_CLASSES_ROOT\StockChartX.Document\Insertable =
+HKEY_CLASSES_ROOT\StockChartX.Document\CLSID = {FC8ACC13-231B-11D2-B593-006097A8F69A}
+
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A} = StockChartX Document
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\DefaultIcon = STOCKCHARTX.EXE,1
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\LocalServer32 = STOCKCHARTX.EXE
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\ProgId = StockChartX.Document
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\MiscStatus = 32
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\AuxUserType\3 = StockChartX
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\AuxUserType\2 = StockChartX
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\Insertable = 
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\verb\1 = &Öffnen,0,2
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\verb\0 = &Bearbeiten,0,2
+HKEY_CLASSES_ROOT\CLSID\{FC8ACC13-231B-11D2-B593-006097A8F69A}\InprocHandler32 = ole32.dll

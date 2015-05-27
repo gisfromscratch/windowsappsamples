@@ -1,0 +1,13 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\MFCAutoClient1.Application = MFCAutoClient1 Application
+HKEY_CLASSES_ROOT\MFCAutoClient1.Application\CLSID = {48969663-0A05-11D2-B530-006097A8F69A}
+
+HKEY_CLASSES_ROOT\CLSID\{48969663-0A05-11D2-B530-006097A8F69A} = MFCAutoClient1 Application
+HKEY_CLASSES_ROOT\CLSID\{48969663-0A05-11D2-B530-006097A8F69A}\ProgId = MFCAutoClient1.Application
+HKEY_CLASSES_ROOT\CLSID\{48969663-0A05-11D2-B530-006097A8F69A}\LocalServer32 = MFCAUTOCLIENT1.EXE

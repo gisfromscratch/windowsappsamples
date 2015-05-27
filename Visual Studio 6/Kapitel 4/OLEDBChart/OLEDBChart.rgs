@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{9222C939-6036-11D2-B3F3-006097A8F69A} = s 'OLEDBChart'
+		'OLEDBChart.EXE'
+		{
+			val AppID = s {9222C939-6036-11D2-B3F3-006097A8F69A}
+		}
+	}
+}

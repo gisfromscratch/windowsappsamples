@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockPropertyDll - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockPropertyDll.res" /d "NDEBUG" /d "_AFXDLL" "D:\vc_buch\Disc\Kapitel2\StockPropertyDll\StockPropertyDll.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP53.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /Fp"Release/StockPropertyDll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel2\StockPropertyDll\StockProperty.cpp"
+"D:\vc_buch\Disc\Kapitel2\StockPropertyDll\StockPropertyDll.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP53.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP54.tmp" mit Inhalten
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_AFXEXT" /Fp"Release/StockPropertyDll.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel2\StockPropertyDll\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP54.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP55.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/StockPropertyDll.pdb" /machine:I386 /def:".\StockPropertyDll.def" /out:"Release/StockPropertyDll.dll" /implib:"Release/StockPropertyDll.lib" 
+.\Release\StdAfx.obj
+.\Release\StockProperty.obj
+.\Release\StockPropertyDll.obj
+.\Release\StockPropertyDll.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP55.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+StockProperty.cpp
+StockPropertyDll.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+   Bibliothek Release/StockPropertyDll.lib und Objekt Release/StockPropertyDll.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+StockPropertyDll.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

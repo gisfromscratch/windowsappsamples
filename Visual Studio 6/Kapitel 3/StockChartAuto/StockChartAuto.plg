@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChartAuto - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der Befehlzeile "midl.exe /nologo /D "_DEBUG" /tlb "Debug/StockChartAuto.tlb" /mktyplib203 /o "NUL" /win32 "F:\vc6\k3\StockChartAuto\StockChartAuto.odl""
+Creating command line "rc.exe /l 0x407 /fo"Debug/StockChartAuto.res" /i "Debug" /d "_DEBUG" /d "_AFXDLL" "F:\vc6\k3\StockChartAuto\StockChartAuto.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA4.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/StockChartAuto.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\k3\StockChartAuto\ChartProperty.cpp"
+"F:\vc6\k3\StockChartAuto\ChildFrm.cpp"
+"F:\vc6\k3\StockChartAuto\MainFrm.cpp"
+"F:\vc6\k3\StockChartAuto\StatusBarInterface.cpp"
+"F:\vc6\k3\StockChartAuto\StockChartAuto.cpp"
+"F:\vc6\k3\StockChartAuto\StockChartAutoDoc.cpp"
+"F:\vc6\k3\StockChartAuto\StockChartAutoView.cpp"
+"F:\vc6\k3\StockChartAuto\StockProperty.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA4.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA5.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/StockChartAuto.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\k3\StockChartAuto\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA5.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA6.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/StockChartAuto.pdb" /debug /machine:I386 /out:"Debug/StockChartAuto.exe" /pdbtype:sept 
+.\Debug\ChartProperty.obj
+.\Debug\ChildFrm.obj
+.\Debug\MainFrm.obj
+.\Debug\StatusBarInterface.obj
+.\Debug\StdAfx.obj
+.\Debug\StockChartAuto.obj
+.\Debug\StockChartAutoDoc.obj
+.\Debug\StockChartAutoView.obj
+.\Debug\StockProperty.obj
+.\Debug\StockChartAuto.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPA6.tmp"
+<h3>Ausgabefenster</h3>
+Typbibliothek wird erstellt...
+StockChartAuto.odl
+oaidl.idl
+objidl.idl
+unknwn.idl
+wtypes.idl
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+MainFrm.cpp
+StatusBarInterface.cpp
+StockChartAuto.cpp
+StockChartAutoDoc.cpp
+StockChartAutoView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSPAD.tmp" mit Inhalten
+[
+/nologo /o"Debug/StockChartAuto.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ChartProperty.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\MainFrm.sbr
+.\Debug\StatusBarInterface.sbr
+.\Debug\StockChartAuto.sbr
+.\Debug\StockChartAutoDoc.sbr
+.\Debug\StockChartAutoView.sbr
+.\Debug\StockProperty.sbr]
+Erstellen der Befehlzeile "bscmake.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSPAD.tmp"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+StockChartAuto.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

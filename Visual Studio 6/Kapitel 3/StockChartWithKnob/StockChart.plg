@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: StockChart - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StockChart.res" /d "NDEBUG" "D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StockChart.rc"" 
+Erstellen der temporären Datei  "D:\TEMP\RSP3D.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/StockChart.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\ChartProperty.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\ChildFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\knob.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\MainFrm.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StockChart.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StockChartDoc.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StockChartView.cpp"
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StockProperty.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP3D.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP3E.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/StockChart.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\vc_buch\Disc\Kapitel3\StockChartWithKnob\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP3E.tmp" 
+Erstellen der temporären Datei  "D:\TEMP\RSP3F.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StockChart.pdb" /machine:I386 /out:"Release/StockChart.exe" 
+.\Release\ChartProperty.obj
+.\Release\ChildFrm.obj
+.\Release\knob.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\StockChart.obj
+.\Release\StockChartDoc.obj
+.\Release\StockChartView.obj
+.\Release\StockProperty.obj
+.\Release\StockChart.res
+]
+Erstellen der Befehlzeile "link.exe @D:\TEMP\RSP3F.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+ChartProperty.cpp
+ChildFrm.cpp
+knob.cpp
+MainFrm.cpp
+StockChart.cpp
+StockChartDoc.cpp
+StockChartView.cpp
+StockProperty.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+Erstellen der temporären Datei  "D:\TEMP\RSP41.tmp" mit Inhalten
+[
+/nologo /o"Release/StockChart.bsc" 
+.\Release\StdAfx.sbr
+.\Release\ChartProperty.sbr
+.\Release\ChildFrm.sbr
+.\Release\knob.sbr
+.\Release\MainFrm.sbr
+.\Release\StockChart.sbr
+.\Release\StockChartDoc.sbr
+.\Release\StockChartView.sbr
+.\Release\StockProperty.sbr]
+Erstellen der Befehlzeile "bscmake.exe @D:\TEMP\RSP41.tmp"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+StockChart.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

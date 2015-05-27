@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: SquareServer - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/SquareServer.res" /d "_DEBUG" /d "_AFXDLL" "F:\vc6\k3\SquareServer\SquareServer.rc"" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP54.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_USRDLL" /FR"Debug/" /Fp"Debug/SquareServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\k3\SquareServer\Square.cpp"
+"F:\vc6\k3\SquareServer\SquareServer.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP54.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP55.tmp" mit Inhalten
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_USRDLL" /FR"Debug/" /Fp"Debug/SquareServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"F:\vc6\k3\SquareServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP55.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP56.tmp" mit Inhalten
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/SquareServer.pdb" /debug /machine:I386 /def:".\SquareServer.def" /out:"Debug/SquareServer.dll" /implib:"Debug/SquareServer.lib" /pdbtype:sept 
+.\Debug\Square.obj
+.\Debug\SquareServer.obj
+.\Debug\StdAfx.obj
+.\Debug\SquareServer.res
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\frank\LOKALE~1\Temp\RSP56.tmp"
+Erstellen der temporären Datei  "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP57.bat" mit Inhalten
+[
+@echo off
+regsvr32 /s /c ".\Debug\SquareServer.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+]
+Erstellen der Befehlzeile "C:\DOKUME~1\frank\LOKALE~1\Temp\RSP57.bat"
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+Square.cpp
+SquareServer.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+   Bibliothek Debug/SquareServer.lib und Objekt Debug/SquareServer.exp wird erstellt
+<h3>Ausgabefenster</h3>
+ActiveX-Steuerelemente werden registriert...
+Erstellen der Befehlzeile "bscmake.exe /nologo /o"Debug/SquareServer.bsc"  .\Debug\StdAfx.sbr .\Debug\Square.sbr .\Debug\SquareServer.sbr"
+Browse-Informationsdatei wird erstellt...
+<h3>Ausgabefenster</h3>
+
+
+
+<h3>Ergebnisse</h3>
+SquareServer.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

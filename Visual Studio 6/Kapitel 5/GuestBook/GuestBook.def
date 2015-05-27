@@ -1,0 +1,8 @@
+; GUESTBOOK.def : Deklariert die Modul-Parameter für die DLL.
+
+LIBRARY	     "GUESTBOOK"
+
+EXPORTS
+	HttpExtensionProc
+	GetExtensionVersion
+	TerminateExtension

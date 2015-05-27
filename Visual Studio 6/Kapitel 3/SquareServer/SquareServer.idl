@@ -1,0 +1,44 @@
+// SquareServer.idl : IDL-Quellcode für SquareServer.dll
+//
+
+// Diese Datei wird mit dem MIDL-Tool bearbeitet,
+// um den Quellcode für die Typbibliothek (SquareServer.tlb)und die Abruffunktionen zu erzeugen.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	
+	[
+		object,
+		uuid(547E8380-F175-11D1-90A2-D0DD2F7ACA49),
+		helpstring("ISquare Interface"),
+		pointer_default(unique)
+	]
+	interface ISquare : IUnknown
+	{
+		HRESULT GetSquare ([in]long value,
+		                   [out,retval]long* pnResult);
+	};
+
+
+
+[
+	uuid(547E8371-F175-11D1-90A2-D0DD2F7ACA49),
+	version(1.0),
+	helpstring("SquareServer 1.0 Typbibliothek")
+]
+library SQUARESERVERLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	
+	[
+		uuid(547E8381-F175-11D1-90A2-D0DD2F7ACA49),
+		helpstring("Square Class")
+	]
+	coclass Square
+	{
+		[default] interface ISquare;
+	};
+
+};
